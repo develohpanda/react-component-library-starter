@@ -4,6 +4,7 @@ import {withKnobs} from '@storybook/addon-knobs';
 import {INITIAL_VIEWPORTS} from '@storybook/addon-viewport';
 import {addDecorator, addParameters, configure} from '@storybook/react';
 import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // automatically import all files ending in *.stories.tsx
 const req = require.context('../stories', true, /\.stories\.tsx$/);
