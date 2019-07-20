@@ -5,7 +5,7 @@ defaults: &defaults
 
 whitelist: &whitelist
   paths:
-    - '*'
+    - '**/*'
 version: 2
 jobs:
   checkout:
