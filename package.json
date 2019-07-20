@@ -12,7 +12,7 @@
     "test:cover": "jest --coverage",
     "start": "start-storybook -p 6006",
     "build": "tsc",
-    "lint": "eslint {.storybook,stories,src,__tests__}/**/*.{{t,j}s{,x}}",
+    "lint": "eslint {.storybook,stories,src,__tests__}/**/* --ext .{{t,j}s{,x}}",
     "lint:fix": "yarn lint --fix",
     "local-pack": "rimraf ./*.tgz && yarn lint && yarn build && yarn pack",
     "now-build": "build-storybook -o dist"
