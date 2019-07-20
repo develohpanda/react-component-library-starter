@@ -13,7 +13,7 @@
     "start": "start-storybook -p 6006",
     "compile": "tsc --noEmit",
     "build": "yarn lint && tsc",
-    "lint": "eslint {stories,src,__tests__}/**/*.{{t,j}s{,x}}",
+    "lint": "eslint {.storybook,stories,src,__tests__}/**/*.{{t,j}s{,x}}",
     "lint:fix": "yarn lint --fix"
   },
   "lint-staged": {
