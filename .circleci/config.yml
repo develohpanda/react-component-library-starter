@@ -27,6 +27,8 @@ jobs:
 
       - persist_to_workspace:
           root: ~/repo
+          paths:
+            - *
 
   lint:
     <<: *defaults
@@ -52,6 +54,8 @@ jobs:
 
       - persist_to_workspace:
           root: ~/repo
+          paths:
+            - *
 
   build:
     <<: *defaults
@@ -66,6 +70,7 @@ jobs:
 
       - persist_to_workspace:
           root: ~/repo
+          <<: *whitelist
 
   deploy:
     <<: *defaults
