@@ -4,13 +4,7 @@ import {withKnobs} from '@storybook/addon-knobs';
 import {INITIAL_VIEWPORTS} from '@storybook/addon-viewport';
 import {addDecorator, addParameters, configure} from '@storybook/react';
 
-import '../src/critical.css';
-import '../src/style.min.css';
-
 import './reset.css';
-
-// tslint:disable-next-line: no-var-requires
-const objectFitImages = require('object-fit-images');
 
 // automatically import all files ending in *.stories.tsx
 const req = require.context('../stories', true, /\.stories\.tsx$/);
@@ -25,4 +19,3 @@ setConsoleOptions({
   panelExclude: [],
 });
 configure(loadStories, module);
-objectFitImages();
