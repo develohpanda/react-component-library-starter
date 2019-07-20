@@ -1,0 +1,51 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: Default
+
+steps:
+- task: NodeTool@0 
+  inputs:
+    versionSpec: '8.11.1'
+
+- script: yarn install
+  displayName: 'install packages'
+
+- script: yarn build
+  displayName: 'lint & compile'
+
+- script: yarn test
+  displayName: 'run unit tests'
+
+- task: CopyFiles@2
+  inputs:
+    Contents: 'package.json'
+    TargetFolder: 'artifacts'
+
+- task: CopyFiles@2
+  inputs:
+    Contents: 'README.md'
+    TargetFolder: 'artifacts'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'dist'
+    Contents: '**'
+    TargetFolder: 'artifacts/dist'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'artifacts'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishPipelineArtifact@0
+  inputs:
+    artifactName: 'drop' 
+    targetPath: '$(Build.ArtifactStagingDirectory)'

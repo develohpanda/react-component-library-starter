@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SampleComponent /> should render and match snapshot 1`] = `
+<Card
+  className="p-2 m-2"
+  tag="div"
+>
+  <h1>
+    title
+  </h1>
+  <p>
+    description
+  </p>
+</Card>
+`;
