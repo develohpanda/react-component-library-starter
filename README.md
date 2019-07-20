@@ -12,6 +12,7 @@ This boilderplate includes a [Storybook](https://storybook.js.org/) to visualize
 - Continuous Integration via [Circle CI](.circleci/config.yml)
 - NPM publishing via [GitHub Releases](/releases) (version must follow the `v.*.*.*` pattern)
 - Editor [settings](.vscode) for VS Code
+- [Bootstrap](https://getbootstrap.com/) & [Reactstrap](https://reactstrap.github.io/)
 - [Yarn](https://yarnpkg.com/en/)
 
 # Usage
