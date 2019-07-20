@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "build/release",
     "module": "commonjs",
     "target": "es5",
     "lib": ["es5"],
@@ -26,5 +26,5 @@
     "esModuleInterop": true
   },
   "include": ["src", "index.ts"],
-  "exclude": ["node_modules", "dist", "jest.config.js"]
+  "exclude": ["node_modules", "build/release", "jest.config.js"]
 }
