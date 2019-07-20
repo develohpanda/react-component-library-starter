@@ -3,11 +3,7 @@ import {setConsoleOptions, withConsole} from '@storybook/addon-console';
 import {withKnobs} from '@storybook/addon-knobs';
 import {INITIAL_VIEWPORTS} from '@storybook/addon-viewport';
 import {addDecorator, addParameters, configure} from '@storybook/react';
-
-
-
-
-import './reset.css';
+import 'bootstrap';
 
 // automatically import all files ending in *.stories.tsx
 const req = require.context('../stories', true, /\.stories\.tsx$/);
