@@ -6,6 +6,8 @@ import {addDecorator, addParameters, configure} from '@storybook/react';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import './reset.css';
+
 // automatically import all files ending in *.stories.tsx
 const req = require.context('../stories', true, /\.stories\.tsx$/);
 
