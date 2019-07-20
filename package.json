@@ -1,7 +1,7 @@
 {
-  "name": "npm-boilerplate",
-  "version": "0.0.0",
-  "description": "[A short description]",
+  "name": "placeholder",
+  "version": "",
+  "description": "",
   "main": "build/release/index.js",
   "types": "build/release/index.d.ts",
   "files": [
@@ -11,10 +11,10 @@
     "test": "jest",
     "test:cover": "jest --coverage",
     "start": "start-storybook -p 6006",
-    "build": "tsc",
+    "compile": "tsc",
     "lint": "eslint {.storybook,stories,src,__tests__}/**/* --ext .{{t,j}s{,x}}",
     "lint:fix": "yarn lint --fix",
-    "local-pack": "rimraf ./*.tgz && yarn lint && yarn build && yarn pack",
+    "local-pack": "rimraf ./*.tgz && yarn lint && yarn compile && yarn pack",
     "now-build": "build-storybook -o dist"
   },
   "lint-staged": {

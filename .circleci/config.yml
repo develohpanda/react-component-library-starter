@@ -67,8 +67,8 @@ jobs:
           at: ~/repo
 
       - run:
-          name: Build TypeScript code
-          command: yarn build
+          name: Compile TypeScript code
+          command: yarn compile
 
       - persist_to_workspace:
           root: ~/repo
