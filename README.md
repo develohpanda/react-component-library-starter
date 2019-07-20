@@ -23,6 +23,7 @@ This boilderplate includes a [Storybook](https://storybook.js.org/) to visualize
 4. `yarn start`
 5. Create your components
 6. Export your components in [`index.ts`](index.ts)
+7. Publish your module by creating a new GitHub Release (with a `v.*.*.*` version number). CircleCI will automatically build and deploy.
 
 ## `yarn` Scripts
 - `test` - _run unit tests_
