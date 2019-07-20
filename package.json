@@ -87,7 +87,6 @@
     "prettier": "1.18.2",
     "prop-types": "15.7.2",
     "react": "16.8.6",
-    "react-content-loader": "4.2.2",
     "react-dom": "16.8.6",
     "reactstrap": "8.0.1",
     "rimraf": "2.6.3",
@@ -97,8 +96,7 @@
   },
   "peerDependencies": {
     "classnames": ">=2",
-    "react": ">=16",
-    "react-content-loader": ">=4"
+    "react": ">=16"
   },
   "dependencies": {}
 }
