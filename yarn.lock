@@ -1470,16 +1470,16 @@
     upath "^1.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-knobs@5.1.9":
-  version "5.1.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-5.1.9.tgz#74db07fd644b41e63274f8754fbfb18f43d4cf01"
-  integrity sha512-7/bICMYtR9CaTqfZX1kT2pBOTLZo3HxeslyQKWWsWlNElV33Ym2d0PPL5eS36eFxG/ZOp6lQWIFhunNnlmP5xg==
+"@storybook/addon-knobs@5.1.10":
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-5.1.10.tgz#f5d9f21090e28046169a0aa0418de59bd92c21fd"
+  integrity sha512-j5wXBIPGQxK+guFDAi8xNBdUnyQglhDplVoC9SswkSMarqtWq02TT+OLN2VSBgpvzHmhLUW3autjJGfmwP4ltQ==
   dependencies:
-    "@storybook/addons" "5.1.9"
-    "@storybook/client-api" "5.1.9"
-    "@storybook/components" "5.1.9"
-    "@storybook/core-events" "5.1.9"
-    "@storybook/theming" "5.1.9"
+    "@storybook/addons" "5.1.10"
+    "@storybook/client-api" "5.1.10"
+    "@storybook/components" "5.1.10"
+    "@storybook/core-events" "5.1.10"
+    "@storybook/theming" "5.1.10"
     copy-to-clipboard "^3.0.8"
     core-js "^3.0.1"
     escape-html "^1.0.3"
@@ -1652,6 +1652,24 @@
   integrity sha512-R6i7859FsXgY9XFFErVe7gS37wGYpQEEWsO1LzUW7YptGuFTUa8yLgKkNkgfy7Zs61Xm+GiBq8PvS/CWxjotPw==
   dependencies:
     core-js "^3.0.1"
+
+"@storybook/client-api@5.1.10":
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-5.1.10.tgz#a10f028f2d33d044e5c3b3daea5d8375323e6a66"
+  integrity sha512-v2PqiNUhwDlVDLYL94f6LFjdYMToTpuwWh9aeqzt/4PAJUnIcA+2P8+qXiYdJTqQy/u7P72HFMlc9Ru4tl3QFg==
+  dependencies:
+    "@storybook/addons" "5.1.10"
+    "@storybook/client-logger" "5.1.10"
+    "@storybook/core-events" "5.1.10"
+    "@storybook/router" "5.1.10"
+    common-tags "^1.8.0"
+    core-js "^3.0.1"
+    eventemitter3 "^3.1.0"
+    global "^4.3.2"
+    is-plain-object "^3.0.0"
+    lodash "^4.17.11"
+    memoizerific "^1.11.3"
+    qs "^6.6.0"
 
 "@storybook/client-api@5.1.9":
   version "5.1.9"
