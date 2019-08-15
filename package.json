@@ -89,7 +89,7 @@
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "reactstrap": "8.0.1",
-    "rimraf": "2.6.3",
+    "rimraf": "3.0.0",
     "ts-jest": "24.0.2",
     "typescript": "^3.5.3",
     "webpack": "4.39.1"
