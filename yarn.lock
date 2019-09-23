@@ -1354,19 +1354,20 @@
   dependencies:
     global "^4.3.2"
 
-"@storybook/addon-jest@5.1.11":
-  version "5.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-jest/-/addon-jest-5.1.11.tgz#bfb1e380adf3f6727de6a75a5c3bdcdc2747463f"
-  integrity sha512-i9kV+kvLb/21XeIJ5yp9gIdhcz+EUsPoCZGd4hM/IScoh7N3RZs1plo39Qg5s0b0Ou+CRHJH61OVicvvkhAoZg==
+"@storybook/addon-jest@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-jest/-/addon-jest-5.2.1.tgz#9b281aeb5209de9f89d2eaa7553f726bac9dd0fd"
+  integrity sha512-SH7JDEiOXFSCAK11gUG1UpJJIkRiTZALfw84DbVziIUpHqSPqdvfcRnO9a4VachHhWOLtaxLv1jv3O1f9qhVUw==
   dependencies:
-    "@storybook/addons" "5.1.11"
-    "@storybook/api" "5.1.11"
-    "@storybook/components" "5.1.11"
-    "@storybook/core-events" "5.1.11"
-    "@storybook/theming" "5.1.11"
+    "@storybook/addons" "5.2.1"
+    "@storybook/api" "5.2.1"
+    "@storybook/components" "5.2.1"
+    "@storybook/core-events" "5.2.1"
+    "@storybook/theming" "5.2.1"
     core-js "^3.0.1"
     global "^4.3.2"
     react "^16.8.3"
+    react-sizeme "^2.5.2"
     upath "^1.1.0"
     util-deprecate "^1.0.2"
 
@@ -9499,7 +9500,7 @@ react-select@^3.0.0:
     react-input-autosize "^2.2.1"
     react-transition-group "^2.2.1"
 
-react-sizeme@^2.6.7:
+react-sizeme@^2.5.2, react-sizeme@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/react-sizeme/-/react-sizeme-2.6.7.tgz#231339ce8821ac2c26424c791e0027f89dae3e90"
   integrity sha512-xCjPoBP5jmeW58TxIkcviMZqabZis7tTvDFWf0/Wa5XCgVWQTIe74NQBes2N1Kmp64GRLkpm60BaP0kk+v8aCQ==
