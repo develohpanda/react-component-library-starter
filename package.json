@@ -88,7 +88,7 @@
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "reactstrap": "8.1.1",
+    "reactstrap": "8.2.0",
     "rimraf": "3.0.0",
     "ts-jest": "24.2.0",
     "typescript": "^3.5.3",
