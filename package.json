@@ -92,7 +92,7 @@
     "rimraf": "3.0.0",
     "ts-jest": "24.2.0",
     "typescript": "^3.5.3",
-    "webpack": "4.41.3"
+    "webpack": "4.41.4"
   },
   "peerDependencies": {
     "classnames": ">=2",
