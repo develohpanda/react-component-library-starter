@@ -64,7 +64,7 @@
     "babel-loader": "^8.0.6",
     "bootstrap": "4.4.1",
     "classnames": "2.2.6",
-    "enzyme": "3.10.0",
+    "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.4.3",
     "eslint": "^5.0.0",
