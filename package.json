@@ -98,5 +98,8 @@
     "classnames": ">=2",
     "react": ">=16"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": "12.x"
+  }
 }
