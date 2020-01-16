@@ -52,7 +52,7 @@
     "@types/react-dom": "16.9.4",
     "@types/reactstrap": "8.2.0",
     "@types/storybook__addon-actions": "3.4.3",
-    "@types/storybook__addon-centered": "3.4.1",
+    "@types/storybook__addon-centered": "5.2.0",
     "@types/storybook__addon-jest": "3.4.3",
     "@types/storybook__addon-knobs": "5.0.4",
     "@types/storybook__addon-links": "3.3.5",
