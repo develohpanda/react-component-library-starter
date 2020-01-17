@@ -1898,6 +1898,17 @@
     "@storybook/components" "5.3.6"
     "@storybook/core-events" "5.3.6"
     "@storybook/theming" "5.3.6"
+"@storybook/addon-actions@^5.1.9":
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.3.4.tgz#60d94554dec45a614e86bf0432bc7b4c9c22fc28"
+  integrity sha512-wEuFB9UbHZHMAH+bkBmhbxCvi5/Rh5Y3DkXWgc0w/JjscB81IrqqZfbnD9ZcV7TBqEKyCyvfo63Drj6JfUqCUw==
+  dependencies:
+    "@storybook/addons" "5.3.4"
+    "@storybook/api" "5.3.4"
+    "@storybook/client-api" "5.3.4"
+    "@storybook/components" "5.3.4"
+    "@storybook/core-events" "5.3.4"
+    "@storybook/theming" "5.3.4"
     core-js "^3.0.1"
     fast-deep-equal "^2.0.1"
     global "^4.3.2"
@@ -4226,6 +4237,7 @@ ccount@^1.0.3:
   integrity sha512-fpZ81yYfzentuieinmGnphk0pLkOTMm6MZdVqwd77ROvhko6iujLNGrHH5E7utq3ygWklwfmwuG+A7P+NpqT6w==
 
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
+chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -4984,6 +4996,7 @@ debug@=3.1.0:
     ms "2.0.0"
 
 debug@^3.0.0, debug@^3.0.1, debug@^3.2.5, debug@^3.2.6:
+debug@^3.0.1, debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npmjs.org/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
