@@ -2,7 +2,7 @@ import * as React from 'react';
 
 interface Props<T> {
   initial?: T;
-  render(props: InjectedProps<T>): React.ReactNode;
+  render(props: InjectedProps<T | undefined>): React.ReactNode;
 }
 
 export interface InjectedProps<T> {
