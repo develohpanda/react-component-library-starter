@@ -25,6 +25,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true
   },
-  "include": ["src", "index.ts"],
+  "include": ["src", "index.ts", "stories", "__tests__"],
   "exclude": ["node_modules", "build/release", "jest.config.js"]
 }

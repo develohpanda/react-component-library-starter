@@ -1,9 +1,10 @@
 import classnames from 'classnames';
 import * as React from 'react';
 
-export const SpacedContainer: React.FunctionComponent<
-  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>
-> = props => {
+export const SpacedContainer: React.FunctionComponent<React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>> = props => {
   const {className, ...remaining} = props;
 
   return (
