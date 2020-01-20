@@ -1886,6 +1886,16 @@
     react-inspector "^4.0.0"
     uuid "^3.3.2"
 
+"@storybook/addon-centered@*":
+  version "5.3.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-5.3.7.tgz#90c42c8e2ac876a41ad546d98beb231529a83f0b"
+  integrity sha512-dS/ec8X6Fq10p8blqcti0P9xtHtRHfoXzoykR2tLDFVc1aBfpMBI5/HzeQynchCTsbECBxrziElSMFL5tpC7Eg==
+  dependencies:
+    "@storybook/addons" "5.3.7"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-centered@5.3.6":
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-5.3.6.tgz#180dd7fa9f93bf302b44067fc0952264642213f1"
@@ -2795,12 +2805,12 @@
   resolved "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/storybook__addon-centered@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@types/storybook__addon-centered/-/storybook__addon-centered-5.2.0.tgz#8823271936061fdd9be562bff141691b768d52f4"
-  integrity sha512-hChqrbo4bbSOE5JfWf5ICIy7o+wM1CTnHpoikm+avb9qqaOmHfrNnK/Ei3IUQPxauXuavN080kyIJ3kpCpf6fw==
+"@types/storybook__addon-centered@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-centered/-/storybook__addon-centered-5.2.1.tgz#fcd2ee2634e7c0106f3e818e628cc1fd137ec993"
+  integrity sha512-dnzsYdViCcLshRRYlM24w2myvhR6mRPKIttm3Aetvmb4cOXKYvP4Tf0V6TiyvgoGkx8A8tofHMlN817dKeG60w==
   dependencies:
-    storybook__addon-centered "*"
+    "@storybook/addon-centered" "*"
 
 "@types/storybook__addon-knobs@5.2.0":
   version "5.2.0"
@@ -11807,11 +11817,6 @@ storybook-chromatic@^2.2.2:
     tmp "^0.1.0"
     tree-kill "^1.1.0"
     uuid "^3.3.2"
-
-storybook__addon-centered@*:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/storybook__addon-centered/-/storybook__addon-centered-0.0.4.tgz#397f387b8db0a96dc3f70e53a28639c55003108f"
-  integrity sha512-/R+baxe3uay4JkLMOXDtu+NX9KDkOQX6Ctk3MC3X/hcME8U7hcqqyyx3spLUgjANm9iv5vAxP0ljC16IcO5SEg==
 
 storybook__addon-knobs@*:
   version "0.0.4"
