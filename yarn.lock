@@ -2525,12 +2525,12 @@
     regenerator-runtime "^0.13.3"
 
 "@storybook/source-loader@^5.3.6":
-  version "5.3.7"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.7.tgz#d14235963666df7779542f03e78d1fcbb81acb85"
-  integrity sha512-jH8blG9usEG1SvleirrvpmjPvQ9R8XpQCEdTDUNHoY9JJVh4QcHssctq3/KvxLMCU/TLLa7EH02MFE3H0A9dJw==
+  version "5.3.8"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.8.tgz#3355b3ccffd69162dcf9df5b9c913d85c03c5ab4"
+  integrity sha512-mfIaO32l52mv3kys59ZXhgD5d9cS+0s2MJm5KXCi4Z7YI8aou0BKa5pNDdia2ibOE5y78oFcOeyE6BJCLMeddA==
   dependencies:
-    "@storybook/addons" "5.3.7"
-    "@storybook/client-logger" "5.3.7"
+    "@storybook/addons" "5.3.8"
+    "@storybook/client-logger" "5.3.8"
     "@storybook/csf" "0.0.1"
     core-js "^3.0.1"
     estraverse "^4.2.0"
