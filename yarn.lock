@@ -1898,7 +1898,7 @@
     upath "^1.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-knobs@5.3.8":
+"@storybook/addon-knobs@*", "@storybook/addon-knobs@5.3.8":
   version "5.3.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-5.3.8.tgz#c011ef54925a552e4f3c245deffec012dc51779c"
   integrity sha512-QjJ0VMWFuzTFMl7j7p4y1hpYWQ3E8jIv7K2EyBvx+0PHX1ytwGTlTDs+KA84SVvVHT4kwGHVEqJ0SvFFaLDxqg==
@@ -2847,12 +2847,12 @@
   dependencies:
     "@storybook/addon-centered" "*"
 
-"@types/storybook__addon-knobs@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-5.2.0.tgz#338e555dc6c0c4595f265d7ed7e2bcbb0eaa553d"
-  integrity sha512-Q1U5R1udWQ4Z5qJJkshGd2wxcTKM4n7HhNiSabZ8GKeme2B/oDTldqGUKEOqp0nIvWMb5eqinizxDx7NfEDlPg==
+"@types/storybook__addon-knobs@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-knobs/-/storybook__addon-knobs-5.2.1.tgz#f7d4354c9e2a38d095af745a6198e6ff13a36710"
+  integrity sha512-fKK8cRxrfZ59wjso4NHpDd+BpG66HClpMEyjXeMz2XCtxRJhSZmvs/g/tBYYj4TZ+EhpATOnPnxwKn7aXMVsQg==
   dependencies:
-    storybook__addon-knobs "*"
+    "@storybook/addon-knobs" "*"
 
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2":
   version "2.0.3"
@@ -11757,11 +11757,6 @@ storybook-chromatic@^2.2.2:
     tmp "^0.1.0"
     tree-kill "^1.1.0"
     uuid "^3.3.2"
-
-storybook__addon-knobs@*:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/storybook__addon-knobs/-/storybook__addon-knobs-0.0.4.tgz#a9965d85bf93341b8fa227105049d681f5e24676"
-  integrity sha512-MZogtup7usbyDsbT8fdPNwB3VGQVcBD+u1+LpgrEYB6U3TwG6PEDujTl2d0CXsC5DP4FxEbJN4CBPxNtXU7zRg==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
