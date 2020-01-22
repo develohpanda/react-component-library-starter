@@ -85,7 +85,7 @@
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "reactstrap": "8.3.2",
+    "reactstrap": "8.4.0",
     "regenerator-runtime": "^0.13.3",
     "rimraf": "3.0.0",
     "ts-jest": "24.3.0",
