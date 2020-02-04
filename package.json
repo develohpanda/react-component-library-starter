@@ -54,7 +54,7 @@
     "@types/reactstrap": "8.4.1",
     "@types/storybook__addon-centered": "5.2.1",
     "@types/storybook__addon-knobs": "5.2.1",
-    "@typescript-eslint/eslint-plugin": "2.18.0",
+    "@typescript-eslint/eslint-plugin": "2.19.0",
     "@typescript-eslint/parser": "2.18.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
