@@ -1824,16 +1824,16 @@
   dependencies:
     global "^4.3.2"
 
-"@storybook/addon-jest@5.3.9":
-  version "5.3.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-jest/-/addon-jest-5.3.9.tgz#59ac23f315ec28ddfcc864fa7aedde2d497045fd"
-  integrity sha512-NGfcSU07Qif1gHOUAbVUBOLBoP5pmD+OpNfZzWqwA5JZ1iciGd/GWGHjvY97rTDSeQgTEdcZaHsWW2cBvXy/dw==
+"@storybook/addon-jest@5.3.11":
+  version "5.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-jest/-/addon-jest-5.3.11.tgz#07c8d0d9eb1aca0d62c350b558b7f430b074788a"
+  integrity sha512-5yZmJ7EEFDJM/byz3dvIaQmPdpkjOOPUDerc7HNuQfmTEn5Vgk/iRNrSIl11FBKfY4D3YlPlcseuCSjBH+rEbQ==
   dependencies:
-    "@storybook/addons" "5.3.9"
-    "@storybook/api" "5.3.9"
-    "@storybook/components" "5.3.9"
-    "@storybook/core-events" "5.3.9"
-    "@storybook/theming" "5.3.9"
+    "@storybook/addons" "5.3.11"
+    "@storybook/api" "5.3.11"
+    "@storybook/components" "5.3.11"
+    "@storybook/core-events" "5.3.11"
+    "@storybook/theming" "5.3.11"
     core-js "^3.0.1"
     global "^4.3.2"
     react "^16.8.3"
