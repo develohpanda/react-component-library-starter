@@ -1924,16 +1924,16 @@
     prop-types "^15.7.2"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-storysource@5.3.9":
-  version "5.3.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.3.9.tgz#cc564a5377870fbf6f52a064266d425c65bbb375"
-  integrity sha512-ilipax+C0OTkeE2sYxEA1ZSSl89s12wAP6zq66RQmpD95DvvJswetpU+40dWukw0+9WQ5prW0wR25AlbIVIxLQ==
+"@storybook/addon-storysource@5.3.11":
+  version "5.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.3.11.tgz#e9be66674fb70ef283bcc568fceedef7fa2b4bfe"
+  integrity sha512-U2DK3ihc1PSeFF3K3xJRLhnyFEudsi3n8gIHAUMoKyf8oGElfPNjGEgOxY/+9s4SXKGDHFcqizB/eucNrmQN1w==
   dependencies:
-    "@storybook/addons" "5.3.9"
-    "@storybook/components" "5.3.9"
-    "@storybook/router" "5.3.9"
-    "@storybook/source-loader" "5.3.9"
-    "@storybook/theming" "5.3.9"
+    "@storybook/addons" "5.3.11"
+    "@storybook/components" "5.3.11"
+    "@storybook/router" "5.3.11"
+    "@storybook/source-loader" "5.3.11"
+    "@storybook/theming" "5.3.11"
     core-js "^3.0.1"
     estraverse "^4.2.0"
     loader-utils "^1.2.3"
@@ -2459,13 +2459,13 @@
     qs "^6.6.0"
     util-deprecate "^1.0.2"
 
-"@storybook/source-loader@5.3.9", "@storybook/source-loader@^5.3.6":
-  version "5.3.9"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.9.tgz#6820476c5fb08c0950dcde033f88b9496df38f67"
-  integrity sha512-ol3SxzpLYb4x3RJS9J/xzCOzK/ZnUs9LIMmpYl4sWsZQECCTTbN96P36BBH0Z6CrB38IJsDHAarseBAMqVov7A==
+"@storybook/source-loader@5.3.11", "@storybook/source-loader@^5.3.6":
+  version "5.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.11.tgz#3f0c823ced1782120afe3a1b117734a28dc50908"
+  integrity sha512-Se3pZSj1FlfT8goi351kd6e5ojguaGAQ6Z47W6vfsVMEFOQWcgL5zk2+yjr4GRBpTDJvxJFSNAEQkFV78rELbA==
   dependencies:
-    "@storybook/addons" "5.3.9"
-    "@storybook/client-logger" "5.3.9"
+    "@storybook/addons" "5.3.11"
+    "@storybook/client-logger" "5.3.11"
     "@storybook/csf" "0.0.1"
     core-js "^3.0.1"
     estraverse "^4.2.0"
