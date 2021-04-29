@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "17:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - develohpanda
+  ignore:
+  - dependency-name: "@storybook/addon-viewport"
+    versions:
+    - 6.1.11
+    - 6.1.15
+    - 6.1.20
+  - dependency-name: "@storybook/addons"
+    versions:
+    - 6.1.11
+    - 6.1.15
+    - 6.1.20
+  - dependency-name: "@storybook/addon-storysource"
+    versions:
+    - 6.1.11
+    - 6.1.15
+    - 6.1.20
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.10
+    - 7.13.8
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.0.28
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
