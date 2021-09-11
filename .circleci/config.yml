@@ -83,7 +83,7 @@ jobs:
 
       - run: 
           name: Write NPM Token to ~/.npmrc
-          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+          command: echo "//registry.npmjs.org/:_authToken=6ffbb8dc-7fed-4134-9c5b-e6095032d935" >> ~/.npmrc
 
       - run: 
           name: Install dot-json package
