@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SampleComponent /> should render and match snapshot 1`] = `
-<Card
+<div
   className="p-2 m-2"
-  tag="div"
 >
   <h1>
     title
@@ -11,5 +10,32 @@ exports[`<SampleComponent /> should render and match snapshot 1`] = `
   <p>
     description
   </p>
-</Card>
+  <label>
+    Select a vehicle 
+  </label>
+  <select
+    onChange={[Function]}
+  >
+    <option
+      value="Skateboard"
+    >
+      Skateboard
+    </option>
+    <option
+      value="Bike"
+    >
+      Bike
+    </option>
+    <option
+      value="Car"
+    >
+      Car
+    </option>
+    <option
+      value="Boat"
+    >
+      Boat
+    </option>
+  </select>
+</div>
 `;

@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2021,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -13,13 +13,15 @@
     "browser": true,
     "jest/globals": true
   },
-  "plugins": ["@typescript-eslint", "react-hooks", "jest", "prettier", "simple-import-sort"],
+  "plugins": [
+    "react-hooks",
+    "jest",
+    "prettier",
+    "simple-import-sort"
+  ],
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react",
+    "prettier",
+    "eslint-config-prettier",
     "plugin:prettier/recommended",
     "plugin:import/typescript",
     "plugin:import/errors",
@@ -28,9 +30,8 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-unused-vars": "off",
-    "react/prop-types": "off",
     "import/prefer-default-export": "off",
-    "no-undef":"off",
+    "no-undef": "off",
     "no-unused-expressions": [
       "warn",
       {
@@ -38,7 +39,7 @@
         "allowTernary": true
       }
     ],
-    "simple-import-sort/sort": "error",
+    "simple-import-sort/imports": "error",
     "sort-imports": "off",
     "import/order": "off"
   },

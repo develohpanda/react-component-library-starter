@@ -7,13 +7,16 @@ import {SampleComponent} from '../src/SampleComponent';
 storiesOf('Sample Component', module).add(
   'Default',
   () => {
-    const padding = select('Padding', [1, 2, 3, 4, 5], 2);
-    const margin = select('Margin', [1, 2, 3, 4, 5], 2);
+    const vehicle = select(
+      'Vehicle',
+      ['Skateboard', 'Bike', 'Car', 'Boat'],
+      undefined
+    );
 
     return (
       <SampleComponent
-        className={`p-${padding} m-${margin}`}
         title={text('Title', 'This is a title')}
+        defaultVehicle={vehicle}
         description={text(
           'Description',
           'Officia Lorem consequat fugiat eiusmod qui veniam culpa excepteur.'

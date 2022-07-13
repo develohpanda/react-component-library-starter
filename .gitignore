@@ -48,3 +48,7 @@ typings/
 .next
 
 dist
+
+.vscode
+
+.jest-test-results.json
